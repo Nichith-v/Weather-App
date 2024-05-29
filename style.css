@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('assets/bg.jpg') fixed center;
+    background-size: 100% 100%;
+}
+
+.card{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 20px;
+    border: 16px;
+}
+
+#input-text{
+    padding-inline: 10px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline:none;
+    margin-right: 5px;
+}
+
+#input-btn{
+    background-color: white;
+    width: 18%;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+div{
+    color:white;
+}
+
+.content{
+    /* border:2px solid white; */
+    margin-top:40px;
+}
+
+.content div{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#city{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#date{
+    font-size: 0.9rem;
+}
+
+#temperature{
+    margin: 50px 0;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.wind{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.minmax-temp{
+    margin-left: 40px;
+    display: flex;
+    gap: 110px;
+}
